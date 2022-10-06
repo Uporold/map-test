@@ -1311,6 +1311,6 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("map-test/app")["default"].create({"name":"map-test","version":"0.0.0+987b361e"});
+  require("map-test/app")["default"].create({"name":"map-test","version":"0.0.0+032bb401"});
 }
 //# sourceMappingURL=map-test.map
