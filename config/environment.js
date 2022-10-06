@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: "map-test",
     environment,
-    rootURL: "/",
+    rootURL: "/map-test/",
     locationType: "auto",
     EmberENV: {
       FEATURES: {
