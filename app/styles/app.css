@@ -13,10 +13,10 @@ body {
   top: 15px;
   right: 15px;
   background-color: #fff;
-  height: 300px;
-  padding: 15px;
-  overflow-y: scroll;
+  padding: 0 15px 15px 15px;
   border-radius: 5px;
+  touch-action: none;
+  cursor: default;
 }
 
 .active {
@@ -41,6 +41,10 @@ body {
 .states-container ul {
   list-style: none;
   padding: 0;
+  margin-top: 75px;
+  overflow-y: scroll;
+  height: 250px;
+  width: 220px;
 }
 
 .states-container li {
@@ -50,4 +54,10 @@ body {
 
 .states-container li:hover {
   background-color: coral;
+}
+
+.search-container {
+  padding-top: 15px;
+  position: fixed;
+  background-color: #fff;
 }

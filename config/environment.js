@@ -4,8 +4,11 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: "map-test",
     environment,
-    rootURL: "/map-test/",
+    rootURL: "/",
+    mapUrlTemplate:
+      "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
     locationType: "auto",
+    backendURL: "http://localhost:3000",
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

@@ -16,7 +16,8 @@
     "lint:fix": "eslint ./*.js app blueprints config lib server tests --fix",
     "start": "ember serve",
     "deploy": "gh-pages -d dist",
-    "test": "ember test"
+    "test": "ember test",
+    "server:start": "json-server db.json"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -45,8 +46,9 @@
     "eslint-config-prettier": "^3.6.0",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-prettier": "^2.7.0",
-    "leaflet": "^1.6.0",
     "gh-pages": "^3.2.3",
+    "json-server": "^0.16.3",
+    "leaflet": "^1.6.0",
     "loader.js": "^4.2.3",
     "prettier": "^1.16.4"
   },

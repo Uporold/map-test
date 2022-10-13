@@ -1,9 +1,0 @@
-<p>Штаты</p>
-<form class="form-inline">
-  {{input type="search" placeholder="Введите штат" value=search input=(action 'getStatesByInput')}}
-</form>
-<ul>
-  {{#each featuresCopy as |feature|}}
-    <li class="{{if (eq activeState feature.properties.name) "active" ""}}" onclick={{action "onStateClick" feature.properties.name}}>{{feature.properties.name}}</li>
-  {{/each}}
-</ul>
